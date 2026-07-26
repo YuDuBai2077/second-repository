@@ -1,0 +1,45 @@
+body{
+    background-color:#f7fff7;
+    padding-top:56px;
+}
+@media (max-width:768px) {
+    .banner-img {
+        aspect-ratio: 16 / 9;
+    }
+}
+.banner-img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.card-img-top{
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+.scroll-block{
+    scroll-margin-top:60px;
+}
+.img-border{
+    /* border:6px solid #28a745; */
+    border-radius:8px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #28a745;
+    margin: 0 5px;
+    border: none;
+}
+.carousel-indicators .active {
+    background-color: #157333;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.mobile-banner-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
